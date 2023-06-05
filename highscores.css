@@ -1,0 +1,72 @@
+:root{
+    background-image:url("https://www.leadquizzes.com/wp-content/uploads/2019/02/New-blog-graphic.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: lighten;
+ }
+ h1{
+    text-align: center;
+    color:#ffffff;
+    font-style: oblique;
+   text-shadow: 2px 2px 5px #341044 ;
+    font-size: 50px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding-top: 5px;
+    margin-bottom: 0;
+ }
+ .main_container{
+    background-color: rgba(178, 240, 240, 0.6);
+    border-radius: 20px;
+    box-shadow: 2px 5px 5px  rgba(232, 241, 241, 0.8);
+    width: 500px;
+    margin: 150px auto;
+   padding-top: 0px;
+    height: 325px;
+ }
+ .home-btn{
+    display: flex;
+    cursor: pointer;
+    font-size: 18px;
+    width: 150px;
+    height: 30px;
+    background-color: rgb(231, 36, 101);
+    margin-left: 180px;
+    text-decoration: none;
+    text-align: center;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    border-radius: 10px;
+    border-color:#fbff00;
+    border-width: 0.5px;
+    border-style: solid;
+    margin-top: 40px;
+ }
+ #highscorelist{
+    margin-bottom: 0px;
+ }
+ .high-score{
+    list-style: none;
+    margin-bottom: 10px;
+    margin-left: 165px;
+    font-size: 25px;
+    margin-top: 0px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgb(190, 11, 80);
+ }
+ .high-score:hover{
+    transform: scale(1.03);
+    cursor: pointer;
+ }
+ .home{
+    justify-content: center;
+    cursor: pointer;
+    color: #ffffff;
+    padding-left: 30px;
+    text-decoration: none;
+    text-align: center;
+    font-weight: 700;
+}
+.home-btn:hover{
+    box-shadow: 1px 3px 5px rgba(255, 255, 255, 0.8);
+    background-color:  rgb(230, 76, 127);
+}

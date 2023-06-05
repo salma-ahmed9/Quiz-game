@@ -1,0 +1,107 @@
+:root{
+    background-image:url("https://www.leadquizzes.com/wp-content/uploads/2019/02/New-blog-graphic.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: lighten;
+    margin:0;
+    padding:0;
+ }
+ .main_container{
+    background-color: rgba(178, 240, 240, 0.6);
+    border-radius: 20px;
+    box-shadow: 2px 5px 5px  rgba(232, 241, 241, 0.8);
+    width: 700px;
+    margin: 50px auto;
+    height: 550px;
+ }
+ .main_container header h1{
+    padding-top:30px;
+    padding-bottom: 20px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bolder;
+    font-size:28px;
+    text-align: center;
+    color: rgb(233, 14, 14);
+    font-style: oblique;
+ }
+ 
+
+ .choice-container{
+    display:flex;
+    margin:15px;
+    background-color: white;
+ }
+ .choice-prefix{
+    color:white;
+    background-color: rgb(91, 12, 143);
+    padding:18px;
+ }
+ .choice-text{
+    padding-left: 20px;
+    width:100%;
+ }
+ .choice-container:hover{
+    cursor:pointer;
+    box-shadow: 1px 3px 5px  rgba(177, 26, 26, 0.8);
+ }
+ .correct{
+   background-color: rgb(12, 211, 12);
+ }
+ .incorrect{
+   background-color: red;
+ }
+#hud{
+ padding-top: 20px;
+ padding-left: 20px;
+}
+#questionnum{
+   padding-right: 50px;
+}
+.scoretxt{
+  padding-left: 350px;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bolder;
+    font-size:25px;
+    text-align: center;
+    color: rgb(233, 14, 14);
+    font-style: oblique;
+}
+#questiontxt{
+   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   font-weight: bolder;
+   font-size:25px;
+   text-align: center;
+   color: rgb(233, 14, 14);
+   font-style: oblique;
+}
+#scorenum{
+   padding-left: 5px;
+   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bolder;
+    font-size:25px;
+    text-align: center;
+    color: rgb(8, 139, 8);
+    font-style: oblique;
+}
+#questionnum{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bolder;
+    font-size:25px;
+    text-align: center;
+    color: rgb(8, 139, 8);
+    font-style: oblique;
+}
+#progressbar{
+   width:400px;
+   height:29px;
+   border: 0.2rem solid rgb(30, 54, 160);
+   margin-top: 20px;
+   margin-left: 20px;
+}
+#progressbarinner{
+   width:100%;
+   height:30px;
+   margin-left:0;
+   background-color: rgb(237, 250, 98);
+  
+}

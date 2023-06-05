@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet"  href="game.css"/>
+    <title>Quick Quiz - Play</title>
+</head>
+<body>
+    <div class="main_container">
+        <div id="hud">
+            <span id="questiontxt">Question:</span>
+            <span id="questionnum"></span>
+            <span class="scoretxt">Score:</span>
+            <span id="scorenum"></span>
+        </div>
+        <div id="progressbar">
+         <div id="progressbarinner"></div>
+        </div>
+        <header>
+            <h1 id="question">What is the answer to this question? </h1>
+        </header>
+        <!-------------------------------------------------------------------------------->
+        <div class="choice-container">
+            <span class="choice-prefix">A</span>
+            <p class="choice-text" data-number="1">Choice1</p>
+        </div>
+        <div class="choice-container">
+            <span class="choice-prefix">B</span>
+            <p class="choice-text" data-number="2">Choice2</p>
+        </div>
+        <div class="choice-container">
+            <span class="choice-prefix">C</span>
+            <p class="choice-text" data-number="3">Choice3</p>
+        </div>
+        <div class="choice-container">
+            <span class="choice-prefix">D</span>
+            <p class="choice-text" data-number="4">Choice4</p>
+        </div>
+        <!-------------------------------------------------------------------------------->
+    </div>
+    <script src="game.js"></script>
+</body>
